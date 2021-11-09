@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+}
+.top-bar{
+	background-color: #bc80f5;
+	margin-bottom: 50px;
+}
+.top-bar, .top-bar .menu .links aoio{
+    padding:10px;
+}
+
+.top-bar .menu .links a:hover{
+	background-color: rgb(147, 147, 246);
+
+}
+.top-bar .menu .links{
+	list-style: none;
+	display: inline;
+}
+.top-bar .menu .links a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 20px;
+	color: #FFFFFF;
+}
+
+.parallaxContainer .parallaxInner .profile{
+	border-radius: 100%;
+}
+/*#welcome{
+	position:relative;
+}
+.parallaxInner{
+	position: absolute;
+    left: 71px;
+    top: 160px;
+}*/
+
+
+.top-bar .menu .links a::after { 
+  content: "|";
+  color: #FFFFFF;
+  font-weight: bold;
+  padding-left:20px;
+
+}
+#shubha{
+    text-align:center;
+    color: rgb(250, 138, 157);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para{
+    color: rgb(249, 0, 0);
+    left: 9px;
+}
